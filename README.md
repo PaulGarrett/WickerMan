@@ -18,3 +18,13 @@ WickerMan is a controller for garden wicking beds that:
 WickerMan could also be adapted to be used as a watering controller for any garden application that requires responses to soil dryness, but is probably overkill for this purpose alone.
 
 Note that this version (Beta 0.1) is INSECURE and designed to run on a secured home wifi network. It is possible to secure node-red and mqtt to expose the whole system to the wider internet but that process is not covered here.
+
+Watch this space for further documentation:
+
+    Hardware list
+    Fritzing circuit diagram
+    Software notes
+    mqtt and Node-Red setup links
+    Node-red nodes for WickerMan
+    Notes on wicking bed setup tips for WickerMan
+    Performance data
