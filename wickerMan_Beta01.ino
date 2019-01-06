@@ -12,11 +12,11 @@ Hardware (for an array of two wicking beds):
 	1 x Adafruit DS3231 RTC or equivalent or DS3232
 	1 x DHT22 Humidity and Temperature Sensor
 	2 x Adafruit STEMMA Soil Sensor - from Adafruit or your local agent
-	2 x 12v normally closed ½" Plastic Solenoid Valve - eg. From valves4projects
+	2 x 12v normally closed Â½" Plastic Solenoid Valve - eg. From valves4projects
 	2 x Float switches - ebay search for "Water Level Switch Liquid Level Sensor Plastic Vertical Float"
 	2 x Rectifier Diode (across terminals of each solenoid)
 	2 x Basic FET N-Channel (for activation of solenoids)
-	4 x ¼ watt 10k Resistors (pull downs for solenoid FETs and float swiches)
+	4 x Â¼ watt 10k Resistors (pull downs for solenoid FETs and float swiches)
 	(note: depending on user power requirements, add a DC-DC step down switching converter (12v to 5v), 
 	such as the TSR-1 2450 and a 22uf capacitor, to power microcontroller and sensors from 
 	same 12v 1A source as the solenoids)
@@ -144,11 +144,11 @@ int initialised=0; // flag to reset settings or upload new init data from EEPROM
 int fillingNow[] ={0,0};
 int fillFlag[]={0,0};
 
-// network.
+// network. Insert your own between the inverted commas
 
-const char* ssid = "ishtar";
-const char* password = "1Stanbul";
-const char* mqtt_server = "10.1.1.226";
+const char* ssid = "xxxxxxx";
+const char* password = "xxxxxxx";
+const char* mqtt_server = "yy.yy.yy.yyy";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
