@@ -9,7 +9,7 @@ WickerMan is a controller for garden wicking beds that:
     
     • allows the user to set a soil moisture threshold for automatic refilling when the bed gets too dry
     
-    • has an air temperature and humidity sensor for each array of beds ("system")
+    • has an air temperature and humidity sensor for each array of beds ("a system")
     
     • uses the mqtt protocol to allow all functions to be controlled remotely over wifi
     
