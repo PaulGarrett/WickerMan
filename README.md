@@ -28,3 +28,6 @@ Watch this space for further documentation:
     Node-red nodes for WickerMan
     Notes on wicking bed setup tips for WickerMan
     Performance data
+
+
+![alt text](https://github.com/PaulGarrett/WickerMan/blob/master/WickerManImages/WickerManPower.png?raw=true)
