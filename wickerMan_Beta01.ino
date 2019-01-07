@@ -9,11 +9,11 @@ WickerMan is a controller for garden wicking beds that:
 	
 Hardware (for an array of two wicking beds):
 	1 x Adafruit Feather HUZZAH ESP8266
-	1 x Adafruit DS3231 RTC or equivalent or DS3232
-	1 x DHT22 Humidity and Temperature Sensor
-	2 x Adafruit STEMMA Soil Sensor - from Adafruit or your local agent
-	2 x 12v normally closed ½" Plastic Solenoid Valve - eg. From valves4projects
-	2 x Float switches - ebay search for "Water Level Switch Liquid Level Sensor Plastic Vertical Float"
+	1 x Adafruit DS3231 RTC or equivalent or DS3232 (i2c bus)
+	1 x DHT22 Humidity and Temperature Sensor (gpio pin 14)
+	2 x Adafruit STEMMA Soil Sensor - from Adafruit or your local agent (i2c bus)
+	2 x 12v normally closed ½" Plastic Solenoid Valve - eg. From valves4projects (gpio pins 13 and 15)
+	2 x Float switches - ebay search for "Water Level Switch Liquid Level Sensor Plastic Vertical Float" (gpio pins 12 and 16)
 	2 x Rectifier Diode (across terminals of each solenoid)
 	2 x Basic FET N-Channel (for activation of solenoids)
 	4 x ¼ watt 10k Resistors (pull downs for solenoid FETs and float swiches)
@@ -29,6 +29,7 @@ MicroController Software
 	others, see code below
 	
 Other
+	A computer on the network set up as a mqtt broker (I use a RasPi)
 	Full dashboard implementation via Node-red on any computer on your home network
 	
 Hardcoded settings
