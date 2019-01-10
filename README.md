@@ -29,7 +29,7 @@ Watch this space for further documentation:
     Notes on wicking bed setup tips for WickerMan
     Performance data
     
-
+![alt text](https://github.com/PaulGarrett/WickerMan/blob/master/WickerManImages/Fig1.png?raw=true)
 
 ![alt text](https://github.com/PaulGarrett/WickerMan/blob/master/WickerManImages/New_Fig3.png?raw=true)
 
