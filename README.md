@@ -31,6 +31,8 @@ Watch this space for further documentation:
     
 ![alt text](https://github.com/PaulGarrett/WickerMan/blob/master/WickerManImages/Fig1.png?raw=true)
 
+![alt text](https://github.com/PaulGarrett/WickerMan/blob/master/WickerManImages/Fig2.png?raw=true)
+
 ![alt text](https://github.com/PaulGarrett/WickerMan/blob/master/WickerManImages/New_Fig3.png?raw=true)
 
 
