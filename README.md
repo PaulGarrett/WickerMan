@@ -1,7 +1,7 @@
 # WickerMan
 An Arduino/ESP8266/mqtt controller for garden wicking beds
 
-WickerMan is a controller for garden wicking beds that:
+WickerMan is an IOT controller for garden wicking beds that:
 
     • measures and reports soil moisture and temperature for a group of wicking beds
     
@@ -22,7 +22,7 @@ Note that this version (Beta 0.1) is INSECURE and designed to run on a secured h
 Watch this space for further documentation:
 
     Hardware list
-    Fritzing circuit diagram
+    Circuit diagram
     Software notes
     mqtt and Node-Red setup links
     Node-red nodes for WickerMan
