@@ -118,7 +118,7 @@ Copy the provided JSON text documents into node red using the "Import > clipboar
 	
 	- recopy the single Bed flows and install instances for as many beds as you are controlling on your first System.
 	
-Manually amend each additional copy of each mqtt node to insert the correct bed number . The format of all WickerMan mqtt topics is "wickingBeds/<sysID>/<bedNum>/<dataTopic>" (in the sample, sysID is 1 and bedNum is 1 - you should not have to edit the first sample, only the additional copies)
+Manually amend each additional copy of each mqtt node to insert the correct bed number and the name (or address) of your mqtt server. The format of all WickerMan mqtt topics is "wickingBeds/<sysID>/<bedNum>/<dataTopic>" (in the sample, sysID is 1 and bedNum is 1 - you should not have to edit the first sample, only the additional copies)
 
 All of the bed management functions allowed by the Node-red dashboard can be replicated as mqtt_pub topic/value commands from the terminal. 
 
